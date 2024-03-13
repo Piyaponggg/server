@@ -11,7 +11,7 @@ const connection = mysql.createConnection({
   password: config.password,
   database: config.database
 });
-
+//adasd
 connection.connect((err) => {
   if (err) {
       console.error('Error connecting to MySQL:', err);
